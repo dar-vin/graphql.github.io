@@ -142,7 +142,7 @@ In most GraphQL service implementations, there is also a way to specify custom s
 scalar Date
 ```
 
-Then it's up to our implementation to define how that type should be serialized, deserialized, and validated. For example, you could specify that the `Date` type should always be serialized into an integer timestamp, and your client should know to expect that format for any date fields.
+Then it's up to your implementation to define how that type should be serialized, deserialized, and validated. For example, you could specify that the `Date` type should always be serialized into an integer timestamp, and your client should know to expect that format for any date fields.
 
 ### Enumeration types
 
